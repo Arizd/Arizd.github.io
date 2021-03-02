@@ -1,0 +1,330 @@
+body {
+  background-color:#111111 ;
+}
+/* Navbar */
+.navbar {
+  background-color: #141414 !important;
+
+  position: fixed;
+}
+.nav-link {
+  font-family: 'Nunito';
+  font-size: 20px;
+  font-weight: 400;
+  color: #656565 !important;
+  margin-right: 25px;
+  transition: ease-in-out .3s;
+}
+.nav-link.active {
+  color: #43D9B8 !important;
+}
+.nav-link:hover {
+  color: #43D9B8 !important;
+}
+/* Akhir Navbar */
+
+/* Jumbotron */
+.jumbotron {
+  background-color: #111111;
+  padding-top: 180px;
+  padding-bottom: 120px;
+}
+.jumbotron h1 {
+  font-family: 'poppins';
+  font-size: 44px;
+  font-weight: 800;
+  color: #F9F9F9;
+}
+.jumbotron p {
+  font-family: 'Nunito';
+  font-size: 22px;
+  margin-top: 10px;
+  color: #656565;
+  font-weight: 500;
+}
+.jumbotron img {
+  width: 200px;
+}
+.arz{ 
+  color:#43D9B8 ;
+}
+.box {
+  width: 30px;
+  height: 30px;
+  border: 3px solid #43D9B8 ;
+  border-radius: 4px;
+  top: 22%;
+  position: absolute;
+  animation: putar 8s linear infinite;
+  left: 7%;
+}
+.boxx  {
+  width: 25px;
+  height: 25px;
+  background-color: #43D9B8;
+  border-radius: 25px;
+  top: 76%;
+  position: absolute;
+  animation: bounce 3s ease-in-out infinite;
+  right: 5%;
+}
+.boxxz  {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(246, 246, 246);
+  top: 80%;
+  position: absolute;
+  animation: bounces 3s ease-in-out infinite;
+  left: 5%;
+  border-radius: 4px;
+}
+@keyframes putar {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+@keyframes bounce {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(50px);
+  }
+}
+@keyframes bounces {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(25px);
+  }
+}
+/* Akhir Jumbotron */
+section {
+  padding-top: 5rem;
+}
+
+/* About */
+.about h2 {
+  font-family: 'Quicksand';
+  font-size: 47px;
+  font-weight: 800;
+  color:  #43D9B8;
+  margin-bottom: 50px;
+}
+.about h3 {
+  font-family: 'Quicksand' ;
+  font-size: 37px;
+  font-weight: 700;
+  color:  #43D9B8;
+  margin-bottom: 40px;
+}
+.desig {
+  color: white;
+}
+.about p {
+  font-family: 'Nunito';
+  font-size: 20px;
+  color: #e9e9e9;
+}
+.about h5 {
+  font-family: 'Nunito';
+  font-size: 20px;
+  color: #FCFCFC
+}
+.progress {
+  width: 400px;
+  height: 7px;
+  border-radius: 10px;
+  background-color: #EEEEEE;
+}
+.satu {
+  background-color: #43D9B8 !important;
+}
+.dua {
+  background-color: #079911 !important;
+}
+.tiga {
+  background-color: #CDA209 !important;
+}
+.empat {
+  background-color: #0066FF !important;
+}
+.lima {
+  background-color: #930050 !important;
+}
+.boxs {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #43D9B8 ;
+  border-radius: 4px;
+  top: 135%;
+  position: absolute;
+  animation: putar 8s linear infinite;
+  left: 20%;
+}
+.boxss {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #f8f8f8 ;
+  border-radius: 4px;
+  top: 136%;
+  position: absolute;
+  animation: putar 8s linear infinite;
+  left: 21%;
+}
+.boxe  {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(246, 246, 246);
+  top: 262%;
+  position: absolute;
+  animation: bouncess 3s ease-in-out infinite;
+  left: 5%;
+  border-radius: 4px;
+}
+/* Akhir About */
+
+/* Projects */
+.projects h2 {
+  margin-top: 140px;
+  font-family: 'Quicksand';
+  font-size: 37px;
+  font-weight: 800;
+  color:  #43D9B8;
+  margin-bottom: 80px;;
+}
+@keyframes bouncess {
+  0%{
+    transform: translateX(0);
+  }
+  50%{
+    transform: translateX(50px);
+  }
+}
+/* aKHIR Projects */
+
+
+/* Countact */
+.boxt  {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(238, 238, 238);
+  top: 420%;
+  position: absolute;
+  animation: putar 8s linear infinite;
+  left: 5%;
+  border-radius: 4px;
+}
+.boxt1  {
+  width: 20px;
+  height: 20px;
+  background-color: #43D9B8;
+  top: 525%;
+  position: absolute;
+  animation: bouncess 4s ease-in-out infinite;
+  right: 5%;
+  border-radius: 4px;
+}
+.con h2 {
+  margin-top: 90px;
+  font-family: 'Quicksand';
+  font-size: 37px;
+  font-weight: 800;
+  color:  #43D9B8;
+}  
+.con,.form-label{
+  color: rgb(221, 221, 221) !important;
+  font-family: 'Nunito';
+  font-size: 18px;
+  font-weight: 500;
+}
+.btn {
+  background-color: #43D9B8 ;
+  color: white;
+  width: 100px;
+  font-size: 18px;
+  font-family: 'Nunito';
+  font-weight: 500;
+}
+
+/* Akhir Contact */
+
+
+/* Footer */
+.b {
+  margin-top: 200px;
+  font-family: 'Nunito';
+  font-weight: 16px;
+  color: rgb(160, 160, 160) !important;
+  font-weight: 500;
+  padding: 2%;
+}
+.des {
+  color: #43D9B8;
+}
+
+
+/* VERSI DEKSTOP */
+@media (min-width: 992px) { 
+  .jumbotron h1 {
+  font-size: 64px;
+}
+.jumbotron img {
+  width: 274px;
+  position: absolute;
+  top: 30%;
+}
+.jumbotron {
+  background-color: #111111;
+  padding-bottom: 180px;
+}
+@keyframes bounces {
+  0%{
+    transform: translateX(0);
+  }
+  50%{
+    transform: translateX(50px);
+  }
+}
+.about h2 {
+  font-size: 45px;
+}
+.projects h2 {
+  font-size: 45px;
+}
+.con h2 {
+  font-size: 45px;
+}
+.boxs {
+  width: 20px;
+  height: 20px;
+  top: 135%;
+  left: 40%;
+}
+.boxss {
+  top: 136%;
+  left: 41%;
+}
+.boxe  {
+  top: 189%;
+  left: 5%;
+}
+@keyframes bouncess {
+  0%{
+    transform: translateX(0);
+  }
+  50%{
+    transform: translateX(50px);
+  }
+}
+.boxt  {
+  top: 360%;
+}
+.boxt1  {
+  top: 435%;
+}
+  }
